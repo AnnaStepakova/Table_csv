@@ -29,7 +29,7 @@ matrix:
         chocolatey:
           packages:
             mingw
-      script: cmake -G "MinGW Makefiles" -DCMAKE_SH="CMAKE_SH-NOTFOUND" . && cmake --build . && .\runTests
+      script: cmake -G "MinGW Makefiles" . && cmake --build . && .\runTests
 
 before_install:
   - eval "${MATRIX_EVAL}"

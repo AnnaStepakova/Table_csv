@@ -1,3 +1,8 @@
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+
 set(GOOGLETEST_ROOT gtest/googletest CACHE STRING "Google Test source root")
 
 include_directories(SYSTEM
